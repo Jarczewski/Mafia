@@ -1,0 +1,4 @@
+export enum ActionTypes {
+  UPDATE_PLAYERS = 'UPDATE_PLAYERS',
+  UPDATE_ROLES = 'UPDATE_ROLES'
+}

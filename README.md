@@ -52,3 +52,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Run backend
+
+```sh
+npm run backend
+```
