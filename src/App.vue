@@ -10,5 +10,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <router-view class="h-screen"/>
+  <div class="h-screen flex flex-col p-6 gap-6">
+    <h1 class="font-semibold text-3xl">Mafyjka</h1>
+    <router-view class="grow"/>
+  </div>
 </template>
