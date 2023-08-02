@@ -14,8 +14,6 @@ export const mutations: MutationTree<State> & Mutations = {
     state.players = payload
   },
   [MutationTypes.SET_ROLES](state, payload: Role[]) {
-    console.log(payload);
-    
     state.roles = payload
   }
 }

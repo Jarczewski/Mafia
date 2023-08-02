@@ -1,0 +1,12 @@
+insert into roles (name, description, isMob) values 
+("Kokietka", "Pokazywana jako dobra.", true), 
+("Szantażysta", "Wybiera szantażowaną osobę, która nie może działać na jego niekorzyść do końca gry.", true),
+("Pawulon", "Dobija postrzelonego przez mafię, kóry potem został uleczony przez Lekarza.", true),
+("Katani", "Co noc sprawdza czy wybrana osoba jest dobra czy zła.", false),
+("Dziwka", "Na początku gry, jednorazowo, poznaje role wybranej osoby.", false),
+("Emo", "Ma dwa życia. Może się pociąć, tracąc przy tym jedno życie.", false),
+("Wariat", "Jednorazowo w dowolnym momencie dnia, ale przed głosowaniem, może strzelić w wybraną osobę.", false),
+("Sklep z Bronią", "Mafia ma dodatkowy strzał pierwszej nocy po śmierci Sklepu z Bronią.", false),
+("Wyrzutek", "Jeśli zostanie zabity w ciągu dnia, wygrywa, a gra się kończy.", false),
+("Lekarz", "Co noc, po turze mafii wybiera osobę którą chce uleczyć. Jeśli trafi w osobę wybraną przez mafię tej samej nocy, ta osoba nie traci życia.", false),
+("Murzyn", "Na początku gry wybiera sobie pana. Jeśli pan miałby stracić życie, zamiast tego ginie Murzyn.", false),
